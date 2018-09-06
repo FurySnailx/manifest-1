@@ -710,4 +710,6 @@
   <!-- Add all PixelExperience repos -->
   <include name="snippets/pixel.xml" />
 
+  <include name="snippets/zl1.xml" />
+
 </manifest>

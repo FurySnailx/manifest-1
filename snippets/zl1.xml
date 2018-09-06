@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="zl1"
+          fetch="https://github.com/pixel-zl1"
+          revision="pie" />
+
+  <remote name="gitlab"
+          fetch="https://gitlab.com/"
+          revision="r9.0" />
+
+<!-- remove -->
+  <remove-project name="bionic" />
+  <remove-project name="frameworks_av" />
+  <remove-project name="vendor_gapps" />
+  <remove-project name="system_core" />
+
+<!-- ROM -->
+  <project path="bionic" name="bionic" remote="zl1" />
+  <project path="frameworks/av" name="frameworks_av" remote="zl1" />
+  <project path="system/core" name="system_core" remote="zl1" />
+  <project path="vendor/gapps" name="Lucchetto/android_vendor_gapps" remote="gitlab" revision="r9.0" />
+
+<!-- HALS -->
+  <project path="hardware/qcom/audio-caf/msm8996" name="CarbonBeta/android_hardware_qcom_audio" remote="github" revision="cr-7.0-caf-8996" />
+  <project path="hardware/qcom/display-caf/msm8996" name="CarbonBeta/android_hardware_qcom_display" remote="github" revision="cr-7.0-caf-8996" />
+  <project path="hardware/qcom/media-caf/msm8996" name="CarbonBeta/android_hardware_qcom_media" remote="github" revision="cr-7.0-caf-8996" />
+
+<!-- zl1 -->
+  <project name="device_leeco_zl1" path="device/leeco/zl1" remote="zl1" />
+  <project name="device_leeco_msm8996-common" path="device/leeco/msm8996-common" remote="zl1" />
+  <project name="kernel_leeco_msm8996" path="kernel/leeco/msm8996" remote="zl1" />
+  <project name="proprietary_vendor_leeco" path="vendor/leeco" remote="zl1" />
+
+</manifest>
