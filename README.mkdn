@@ -3,7 +3,7 @@
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/pixel-zl1/manifest -b pie
+repo init -u https://github.com/FurySnailx/manifest-1 -b pie
 
 # Sync
 repo sync -fcjx --force-sync --no-clone-bundle --no-tags
