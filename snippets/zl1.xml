@@ -18,11 +18,11 @@
 
 
 <!-- ROM -->
-  <project path="bionic" name="bionic" remote="zl1" />
-  <project path="hardware/interfaces" name="hardware_interfaces" remote="zl1" />
-  <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" remote="zl1" />
-  <project path="frameworks/av" name="frameworks_av" remote="zl1" />
-  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="zl1" />
+  <project path="bionic" name="bionic" remote="lineage" />
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="lineage" />
+  <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" remote="lineage" />
+  <project path="frameworks/av" name="frameworks_av" remote="lineage" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="lineage" />
 
 <!-- HALS -->
   <project path="hardware/qcom/audio-caf/msm8996" name="hardware_qcom_audio-caf-8996" remote="zl1" revision="cr-7.0-caf-8996" />
